@@ -6,11 +6,11 @@ using namespace std;
 template<typename TYPE>
 TYPE triangleArea(TYPE hay, TYPE low)
 {
-    return tow * hay / 2;
+    return low * hay / 2;
 }
 int main()
 {
-    triangleArea(3, 6);
+    cout << triangleArea(3, 6) << endl;;
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
